@@ -22,16 +22,16 @@ function CollapsibleExample() {
             <Nav.Link id="BotonCatalogo" href="#home">Tienda</Nav.Link>
             </Link>
             <NavDropdown title="Categorías" id="collasible-nav-dropdown">
-            <Link to={`/category/${"Guitarra"}`}>
+            <Link to={`/tipo/${"guitarra"}`}>
             <NavDropdown.Item href="#action/3.1">Guitarras</NavDropdown.Item>
                 </Link>
-                <Link to={`/category/${"Bajo"}`}>
+                <Link to={`/tipo/${"bajo"}`}>
                 <NavDropdown.Item href="#action/3.2">Bajos</NavDropdown.Item>
                 </Link>
-                <Link to={`/category/${"Bateria"}`}>
+                <Link to={`/tipo/${"bateria"}`}>
                 <NavDropdown.Item href="#action/3.3">Baterías</NavDropdown.Item>
                 </Link>
-                <Link to={`/category/${"Otros"}`}>
+                <Link to={`/tipo/${"otros"}`}>
                 <NavDropdown.Item href="#action/3.4">Otros</NavDropdown.Item>
                 </Link>
               <NavDropdown.Divider />
