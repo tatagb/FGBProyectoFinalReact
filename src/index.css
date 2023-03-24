@@ -88,7 +88,7 @@
   align-items: center;
   background-color:black;
   width: 200px;
-  height: 150px;
+  height: 180px;
 }
 
 .item-container h2{
@@ -124,7 +124,7 @@
 }
 
 .item-container button:hover{
-  background-color: #D5A021;
+  background-color: orange;
   transition: 1s;
 }
 
@@ -177,8 +177,6 @@
   margin-left: 20px;
 }
 
-
-/*! ESTILOS ITEM COUNT */
 
 .item-count{
   display: flex;
@@ -263,6 +261,17 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
   padding: 10px;
+}
+
+.counter{
+margin: 10px;
+color: white;
+text-decoration: none;
+text-align: center;
+}
+
+.counter:hover{
+  color: red;
 }
 
 .btn-delete{
