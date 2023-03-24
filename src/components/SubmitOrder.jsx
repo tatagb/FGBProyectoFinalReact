@@ -18,7 +18,7 @@ const SendOrder = () => {
         if ((name === "") || (email === "") || (tel === "")) {
             Swal.fire(
                 'Campos obligatorios',
-                'Completa los campos faltantes',
+                'Completa por favor',
                 'warning'
             )
         } else {

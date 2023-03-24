@@ -45,7 +45,7 @@ const ItemCount = ({ stock, id, name, precio, image }) => {
                 <p>{count}</p>
                 <button onClick={addQuantity} className="btn-item-count">+</button>
             </div>
-            <button onClick={addToCart} className="btn-add">Agregar: {count}</button>
+            <button onClick={addToCart} className="btn-add">Agregar: {count}  </button>
         </div>
 
     )

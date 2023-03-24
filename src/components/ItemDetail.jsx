@@ -28,11 +28,12 @@ const ItemDetail = ({ instrumentos }) => {
         <div key={instrumento.id} className="detail-container">
           <img src={instrumento.imagen} alt=""></img>
           <div className='data-container'>
+          <p>{instrumento.tipo}</p>
             <h2>{instrumento.modelo}</h2>
             <p>{instrumento.detalle}</p>
             <p>Stock: {instrumento.stock}</p>
             <div className='price'>Precio: ${instrumento.precio}</div>
-            <ItemCount stock={instrumento.stock} id={instrumento.id} name={instrumento.modelo} precio={instrumento.precio} image={instrumento.imagen}/>
+            <ItemCount tipo={instrumento.tipo} stock={instrumento.stock} id={instrumento.id} name={instrumento.modelo} precio={instrumento.precio} image={instrumento.imagen}/>
           </div>
         </div>
       )}

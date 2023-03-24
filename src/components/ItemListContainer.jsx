@@ -5,7 +5,7 @@ import { collection, getDocs, getFirestore} from "firebase/firestore"
 import Loader from './Loader';
 
 const ItemListContainer = () => {
-  const { category } = useParams();
+  const { tipo } = useParams();
   const [instrumentos, setInstrumentos] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -22,7 +22,7 @@ const ItemListContainer = () => {
       });
   }, []);
 
-  const catFilter = instrumentos.filter((instrumento) =>instrumento.category === category);
+  const catFilter = instrumentos.filter((instrumento) =>instrumento.tipo === tipo);
   console.log(catFilter);
 
   if(loading){
@@ -30,7 +30,7 @@ const ItemListContainer = () => {
   }
   return (
     <>
-      {category ? <ItemList instrumentos={catFilter} /> : <ItemList instrumentos={instrumentos} />}
+      {tipo ? <ItemList instrumentos={catFilter} /> : <ItemList instrumentos={instrumentos} />}
     </>
 
   )

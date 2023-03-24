@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Inicio = ({ greeting }) => {
+const Inicio = () => {
   return (
     <>
       <div>
         <div className="bienvenidos">
-          <p className='animate__animated animate__zoomIn'>{greeting}</p>
+          <p className="nombreBienvenida">FGB MÚSICA</p>
         </div>
       </div>
     </>
