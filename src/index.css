@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ------------NAVBAR---------------- */
+.titulo {
+  color: pink;
+  margin-right: 375px;
+  font-size: larger;
+  font-style:italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  }
+  
+  .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #collasible-nav-dropdown, #BotonCatalogo {
+    color: white;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
+.bienvenidos{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("./assets/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+  height: calc(100vh - 80px);
+}
+
+.bienvenidos p{
+  padding-top: 200px;
+  font-family: 'font-family: 'Roboto', sans-serif';
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+/*! ESTILOS ITEMLIST-ITEMS */
+
+.item-list-container{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  min-height:calc(100vh - 80px);
+}
+
+.item-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.item-container{
+  width: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.item-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:black;
+  width: 200px;
+  height: 150px;
+}
+
+.item-container h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+  height: 40px;
+}
+
+.item-container img{
+  width: 200px;
+  filter:grayscale(30%);
+}
+
+.item-container p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.item-container button{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 15px;
+  padding: 7px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.item-container button:hover{
+  background-color: #D5A021;
+  transition: 1s;
+}
+
+
+/*! ESTILOS ITEM DETAIL */
+
+.detail-container{
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 400px;
+  border: solid white 1 px;
+}
+
+.detail-container img{
+  width: 300px;
+  margin: 30px;
+}
+
+.detail-container h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 30px;
+  border-bottom: solid 1px white;
+  margin-bottom: 20px;
+}
+
+.price{
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  margin-bottom: 5px;
+}
+
+.data-container p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color:white;
+  margin-bottom: 5px;
+}
+
+.data-container{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+
+/*! ESTILOS ITEM COUNT */
+
+.item-count{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+
+.item-count p{
+  width: 90px;
+  margin: auto;
+}
+
+.btn-item-count{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  background-color:white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-item-count:hover{
+  background-color:red;
+  transition: 1s;
+}
+
+.btn-add{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 15px;
+  padding: 10px;
+  background-color:white;
+  border: none;
+  border-radius: 5px;
+  width: 140px;
+}
+
+.btn-add:hover{
+  background-color:red;
+  transition: 1s;
+}
+
+
+/*! ESTILOS CART */
+
+.cart{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 50px auto 0px auto;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 500px;
+}
+
+.cart h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 20px;
+}
+
+.cart-title{
+  border-bottom: solid 1px black;
+}
+
+.cart-item{
+  padding: 10px;
+  color:black;
+}
+
+.cart-item p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cart-item span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.btn-delete{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 10px;
+  padding: 10px;
+  background-color:white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  right: 150px;
+}
+
+.btn-delete:hover{
+  background-color:#D5A021;
+  transition: 1s;
+}
+
+.cart-item-img{
+  width: 70px;
+}
+
+/*! ESTILOS FORM */
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input{
+  border: none;
+  border: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form button{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 15px;
+  padding: 10px;
+  background-color:black;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  margin: 30px;
+}
+
+.form button:hover{
+  background-color:red;
+  transition: 1s;
+}
+
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0F1A20;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#root{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("./assets/fondo.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}

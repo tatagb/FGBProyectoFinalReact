@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "category": "varitas",
+        "name": "Varita de Sauco",
+        "description": "Replica de la varita de Sauco",
+        "price": 5000,
+        "pictureURL": "https://i.postimg.cc/d0g3cmMF/varita-sauco.jpg",
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "category": "varitas",
+        "name": "Varita de Harry Potter",
+        "description": "Replica de la varita de Harry Potter",
+        "price": 5000,
+        "pictureURL": "https://i.postimg.cc/W4dzyYHS/varita-harry-potter.jpg",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "category": "varitas",
+        "name": "Varita de Voldemort",
+        "description": "Replica de la varita de Lord Voldemort",
+        "price": 5000,
+        "pictureURL": "https://i.postimg.cc/TwmwdLGD/varita-voldemort.jpg",
+        "stock": 5
+    },
+    {
+        "id": 4,
+        "category": "accesorios",
+        "name": "Bufanda Gryffindor",
+        "description": "Bufanda de la casa Gryffindor",
+        "price": 5000,
+        "pictureURL": "https://i.postimg.cc/J4SSHW3C/bufanda-gryffindor.jpg",
+        "stock": 5
+    },
+    {
+        "id": 5,
+        "category": "dulces",
+        "name": "Rana de chocolate",
+        "description": "La original Rana de chocolate",
+        "price": 5000,
+        "pictureURL": "https://i.postimg.cc/dVdp8Snk/rana-chocolate.jpg",
+        "stock": 5
+    }
+]
